@@ -1,0 +1,5 @@
+/media/pelda/4576373A4C2F7F9A/digitalClock/digitalClock/obj/x86/Debug/.NETFramework,Version=v4.5.AssemblyAttribute.cs
+/media/pelda/4576373A4C2F7F9A/digitalClock/digitalClock/bin/Debug/digitalClock.exe.mdb
+/media/pelda/4576373A4C2F7F9A/digitalClock/digitalClock/bin/Debug/digitalClock.exe
+/media/pelda/4576373A4C2F7F9A/digitalClock/digitalClock/obj/x86/Debug/digitalClock.exe
+/media/pelda/4576373A4C2F7F9A/digitalClock/digitalClock/obj/x86/Debug/digitalClock.exe.mdb
