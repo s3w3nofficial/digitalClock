@@ -2,7 +2,7 @@
   <MonoDevelop.Ide.Workspace ActiveConfiguration="Debug|x86" />
   <MonoDevelop.Ide.Workbench ActiveDocument="digitalClock/Program.cs">
     <Files>
-      <File FileName="digitalClock/Program.cs" Line="124" Column="13" />
+      <File FileName="digitalClock/Program.cs" Line="64" Column="23" />
     </Files>
   </MonoDevelop.Ide.Workbench>
   <MonoDevelop.Ide.DebuggingService.Breakpoints>

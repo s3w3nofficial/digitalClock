@@ -7,6 +7,7 @@ namespace digitalniClock
 	{
 		public static void Main (string[] args)
 		{
+			//create a array of 55 cells
 			string[] cisla = new string[55];
 			// 0
 			cisla [0] = "■■■";
@@ -75,13 +76,13 @@ namespace digitalniClock
 			cisla [53] = " ■ ";
 			cisla [54] = "   ";
 
-			int a = 0;
+			int a = 0; //just some random nammed variable 
 
 			while (true) {
 				Console.Clear ();
-				string time = DateTime.Now.ToString ("hh:mm:ss");
+				string time = DateTime.Now.ToString ("hh:mm:ss"); //get currenttime
 				while (a < 5) {
-					Console.WriteLine ("");
+					Console.WriteLine (""); //got to new line
 					foreach (var s in time) {
 						switch (s) {
 						case '0':
@@ -123,11 +124,11 @@ namespace digitalniClock
 					}
 					a += 1;
 				}
-				a -= a;
+				a -= a; //null the a variable
 
-				Thread.Sleep (1000);
-				Console.Clear ();
-			}
+				Thread.Sleep (1000); //sleep for one second
+				Console.Clear (); //clear the console
+			} 
 		}
 	}
 }
