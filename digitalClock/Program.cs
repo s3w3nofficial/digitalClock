@@ -79,7 +79,6 @@ namespace digitalniClock
 			int a = 0; //just some random nammed variable 
 
 			while (true) {
-				Console.Clear ();
 				string time = DateTime.Now.ToString ("hh:mm:ss"); //get currenttime
 				while (a < 5) {
 					Console.WriteLine (""); //got to new line
@@ -124,7 +123,7 @@ namespace digitalniClock
 					}
 					a += 1;
 				}
-				a -= a; //null the a variable
+				a = 0; //null the a variable
 
 				Thread.Sleep (1000); //sleep for one second
 				Console.Clear (); //clear the console
